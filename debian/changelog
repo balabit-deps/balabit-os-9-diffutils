@@ -1,3 +1,14 @@
+diffutils (1:3.8-0ubuntu2.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Integer Overflow
+    - debian/patches/CVE-2026-53910-1.patch: diff3: check for integer overflows
+      when reading line numbers from diff in NEWS, THANKS, src/diff3.c.
+    - debian/patches/CVE-2026-53910-2.patch: diff3: prevent overflow in line
+      offsets in src/diff3.c.
+    - CVE-2026-53910
+
+ -- John Breton <john.breton@canonical.com>  Wed, 26 Aug 2026 14:17:15 -0400
+
 diffutils (1:3.8-0ubuntu2) jammy; urgency=medium
 
   * No-change rebuild for ppc64el baseline bump.

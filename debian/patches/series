@@ -1,2 +1,4 @@
 01-fix-race-condition-in-colors-test.patch
 02-disable-colors-test.patch
+CVE-2026-53910-1.patch
+CVE-2026-53910-2.patch
